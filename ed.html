@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jeanette Rose</title>
+</head>
+<style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1><img src="C:\Users\jfendrick\Pictures\UNO-lockup-color for dark backgrd.png" align= left width="452.5" height="136"> <br>Jeanette Rose, B.S. <br>BMI M.S. Candidate</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li style="font-size:200%;"><a href="C:\Users\jfendrick\Desktop\HTML\index.htm"><strong>Current Projects</strong></a></li>
+  <li style="font-size:200%;"><a href="C:\Users\jfendrick\Desktop\HTML\ed.html"><strong>Education</strong></a></li>
+  <!--<li><a href="#">Tokyo</a></li> -->
+</ul>
+</nav>
+
+<article class="article">
+  <h1>University of Nebraska at Omaha</h1>
+  <p> <strong>Bachelors of Science </strong> <br> Biotechnology, Chemistry minor <br> Spring 2017 <br> <br> <strong> Masters of Science </strong> <br> Biomedical Informatics <br> expected 2019</p>
+  </article>
+
+<footer>Copyright &copy; </footer>
+</div>
+
+<!--<body style=background-color:LightGrey;>
+
+<h1 style="background-color:Black;color:white"><img src="C:\Users\jfendrick\Pictures\UNO-icon-color.png" width="150" height="150" align: left-side>Welcome to my page</h1>
+
+<!--<img src="C:\Users\jfendrick\Pictures\UNO-icon-color.png" width="500" height="500"> -->
+<!-- This is a comment -->
+
+<!--<h2>Current Projects</h2>
+<p>Evaluation of voice authentication for patient health record access<br>NIH R01 funded project "Optimizing the Electronic Health Record for Cardiac Care"
+<br>PI Dr. John Windle, University of Nebraska Medical Center<br>PI Dr. Ann Fruhling, University of Nebraska at Omaha</p>
+<p>Evaluation of first responders during HAZMAT incidents<br>U.S. Department of Transportation funded project
+<br>PI Dr. Ann Fruhling, University of Nebraska at Omaha</p>
+<a href="https://www.w3schools.com">This is a link</a> -->
+
+
+</body>
+</html>
+
